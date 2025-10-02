@@ -1,0 +1,113 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #b2dbb2;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* ---------- TITULO ---------- */
+.titulo1 {
+    font-size: 80px;
+    color: rgb(137, 199, 140);
+    text-align: center;
+    border-radius: 15px;
+    border: solid 3px rgb(79, 112, 81);
+    padding: 50px;
+    margin: 60px auto;
+    max-width: 1000px;
+    background-color: #84a184;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    letter-spacing: .1em;
+    text-shadow:
+        0 -1px 0 #b7ffb7,
+        0 1px 0 #698069,
+        0 2px 0 #425042,
+        0 3px 0 #262e26,
+        0 4px 0 #262e26,
+        0 6px 0 #262e26,
+        0 8px 0 #425042;
+}
+
+/* ---------- SECCIONES ---------- */
+div {
+    text-align: left;
+    border: solid 2px rgb(79, 112, 81);
+    padding: 40px 60px;
+    margin: 60px auto;
+    max-width: 1000px;
+    background-color: #84a184;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+/* ---------- TEMAS ---------- */
+.tema1, .tema2 {
+    font-size: 55px;
+    color: rgb(137, 199, 140);
+    margin-bottom: 25px;
+    letter-spacing: .1em;
+    text-align: center;
+    text-shadow:
+        0 -1px 0 #b7ffb7,
+        0 1px 0 #698069,
+        0 2px 0 #425042,
+        0 3px 0 #262e26,
+        0 4px 0 #262e26,
+        0 6px 0 #262e26,
+        0 8px 0 #425042;
+}
+
+/* ---------- TEXTO ---------- */
+.letter1, .letter2 {
+    font-size: 20px;
+    letter-spacing: .05em;
+    text-align: justify;
+    color: #f1f1f1;
+}
+
+/* ---------- IMAGENES ---------- */
+.IMAGEN1, .IMAGEN2 {
+    display: block;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 15px;
+    border: solid 5px rgb(79, 112, 81);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* ---------- BOTONES ---------- */
+.boton {
+    display: block;
+    margin: 30px auto;
+    color: rgb(79, 112, 81);
+    background-color: #84a184;
+    border: none;
+    padding: 18px 35px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    max-width: 350px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    color: #fff;
+    background-color: #419c41;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.boton:focus {
+    outline: 3px solid #39a848;
+    outline-offset: 4px;
+}
+
+.boton:active {
+    transform: scale(0.97);
+}
